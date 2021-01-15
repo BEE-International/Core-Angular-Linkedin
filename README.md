@@ -16,6 +16,7 @@ Add the settings inside of the appsettings files!
 
 ### Angular
 Add the settings inside of the environment files!
+For local use the url should be: 'http://localhost:4200/linkedinLoginResponse'
 
 ## Step 2
 
