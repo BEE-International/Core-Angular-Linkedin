@@ -1,0 +1,5 @@
+<p>Your linkedIn code = {{ linkedInToken }}</p>
+<div *ngIf="linkedInUserData">
+  {{ linkedInUserData.localizedFirstName }} {{ linkedInUserData.localizedLastName }} <br>
+  <img src="{{linkedInUserData.profilePicture.displayImage.elements[0].identifiers[0].identifier}}"/>
+</div>
